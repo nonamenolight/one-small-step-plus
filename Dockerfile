@@ -21,6 +21,6 @@ COPY config ./config
 ENV CONFIG_PATH=/app/config/config.yaml
 ENV FRONTEND_PATH=/app/frontend
 
-EXPOSE 8081
+EXPOSE 8080
 
 CMD ["./one-small-step"]

@@ -27,9 +27,9 @@ func main() {
 
 	http.Handle("/", http.FileServer(http.Dir(frontendPath)))
 
-	fmt.Println("server listening on :8081")
+	fmt.Println("server listening on :8080")
 
-	err = http.ListenAndServe(":8081", nil)
+	err = http.ListenAndServe(":8080", nil)
 	if err != nil {
 		panic(err)
 	}

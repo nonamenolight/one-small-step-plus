@@ -1,11 +1,13 @@
 services:
   one-small-step:
+    container_name: one-small-step
+
     build:
       context: .
       dockerfile: Dockerfile
 
     ports:
-      - "8081:8081"
+      - "8080:8080"
 
     volumes:
       - ./config/config.yaml:/app/config/config.yaml:ro
