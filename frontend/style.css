@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+#days {
+    font-size: 5rem;
+    font-weight: bold;
+}
